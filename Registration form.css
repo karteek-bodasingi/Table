@@ -1,0 +1,23 @@
+h2{
+    text-align: center;
+    color: aqua;
+    margin: auto;
+    width: 25%;
+    border: 8px solid yellowgreen;
+    border-style: double;
+}
+
+marquee{
+    background-color: brown;
+    color: white;
+    font-weight: 200;
+    margin: 1% 0%;
+}
+
+div{
+    width: 600px;
+    height: 600px;
+    background-color: rgb(42, 165, 126);
+text-align: center;
+    margin:auto;
+}
