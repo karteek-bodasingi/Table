@@ -1,0 +1,32 @@
+h2{
+  margin: auto;
+  border: solid 5px;
+  width: 20%;
+  border-style: double;
+  text-align: center;
+  border-radius: 10%;
+  border-color: yellowgreen;
+  color: orangered;
+}
+
+marquee{
+  background-color: aquamarine;
+  color: white;
+  margin: 10px 0px;
+}
+
+img{
+  margin: 0px 10px;
+  border: solid 10px;
+  border-style: dashed;
+  float: left;
+  border-radius: 20%;
+  border-color: goldenrod;
+}
+p::first-line{
+  color: brown;
+}
+p{
+  text-indent: 5%;
+  text-align: justify;
+}
