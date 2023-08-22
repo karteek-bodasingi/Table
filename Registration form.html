@@ -7,7 +7,7 @@
     <link href="Registration form.css" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <header >
         
             <h2>Registration Form for Group-1 Exam</h2>
         
@@ -16,21 +16,21 @@
     <main>
         <section>
             <form>
-                <div  id="plesant"><p>First name: <input type="text" placeholder="your first name"></p>
+                <div  id="plesant"><p>First name: <input type="text" maxlength="8" size="30" placeholder="your first name"></p>
                     <p>Last name: <input type="text" placeholder="your last name"> </p>
                     <p>Email: <input type="email" placeholder="your email"> </p>
-                    <p>Phone number: <input type="number" placeholder="1234-5678"> </p>
-                    <p>Gender: <input type="radio">Male<input type="radio" >Female<input type="radio" >Other</p>
+                    <p>Phone number: <input type="number" maxlength="10" placeholder="Contact number"> </p>
+                    <p>Gender: <input type="radio" name="Gender">Male<input type="radio" name="Gender"> Female<input type="radio" name="Gender" >other</p>
                     Language: <select >
-                        <option></option>
+                        <option selected disabled>choose one</option>
                         <option >Telugu</option>
                         <option >Hindi</option>
-                        <option >English</option>
+                        <option  >English</option>
                     </select>
                     <p>D-O-B: <input type="date" placeholder="dd-mm-yyyy"> </p>
                     <p>Upload photo: <input type="File" placeholder="Choose Folder"> </p>
                     <p>Upload documents: <input type="file" placeholder="Choose holder"> </p>
-                    <button  type="button"> Register</button>
+                    <button  type="submit"> Register</button>
                 </div>
             </form>
         </section>
